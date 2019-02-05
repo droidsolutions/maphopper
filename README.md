@@ -47,7 +47,7 @@ The parameter for this is `mapboxkey`. By default it will be left blank.
 
 `http://localhost:3000/api/1/route?point=40.72,-74&vehicle=car&locale=en&key=[GH_ACCESSTOKEN]&points_encoded=false&point=40.733,-73.989&mapboxkey=[MB_ACCESS_TOKEN]`
 
-_[further documentation](/documentation/routing.pdf)_
+_[further documentation](/documentation/routing.md)_
 
 ## Route Optimization API
 
@@ -65,7 +65,7 @@ To get your solution from Graphhopper via the proxy (deployed locally):
 
 `http://localhost:3000/api/1/vrp/solution/[RETURNED_JOB_ID]?key=[GH_ACCESSTOKEN]`
 
-_[further documentation](/documentation/optimization.pdf)_
+_[further documentation](/documentation/optimization.md)_
 
 
 ## Isochrone API
@@ -94,7 +94,7 @@ returns polygons with time limits of: 100, 200, 300, 400
 ### Example Request
 `http://localhost:3000/api/1/isochrone?point=51.131108,12.414551&key=[GH_ACCESSKEY]&debug=true&time_limit=600&buckets=4`
 
-_[further documentation](/documentation/isochrone.pdf)_
+_[further documentation](/documentation/isochrone.md)_
 
 
 ## Matrix API
@@ -111,6 +111,6 @@ All other official parameters are supported.
 ### Example Request
 `http://localhost:3000/api/1/matrix?type=json&vehicle=car&debug=true&out_array=times&out_array=distances&key=[GH_ACCESSKEY]&from_point=49.932707,11.588051&to_point=50.118817,11.983337&from_point=50.241935,10.747375&to_point=50.118817,11.9834`
 
-_[further documentation](/documentation/matrix.pdf)_
+_[further documentation](/documentation/matrix.md)_
 
 
