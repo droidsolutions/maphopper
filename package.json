@@ -7,7 +7,7 @@
     "test": "jest"
   },
   "author": "",
-  "license": "ISC",
+  "license": "MIT",
   "dependencies": {
     "@mapbox/polyline": "^1.0.0",
     "bunyan": "^1.8.12",
